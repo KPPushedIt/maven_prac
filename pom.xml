@@ -52,6 +52,15 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     </dependency>
   </dependencies>
 
+      <!-- JUnit 4 -->
+  <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+  </dependency>
+
+
   <!-- Build -->
   <build>
     <pluginManagement>
@@ -67,6 +76,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
         </plugin>
       </plugins>
     </pluginManagement>
+
+
 
     <plugins>
       <!-- Surefire (for running TestNG) -->
